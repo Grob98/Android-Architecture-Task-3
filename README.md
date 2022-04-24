@@ -1,12 +1,26 @@
-# Aufgabe 2
+# Aufgabe 3
 
-Für diese Aufgabe wurde eine kleine Aufgaben-App erstellt. Die Hauptansicht besteht aus einem TextView am oberen Bildschirmrand, der die aktuelle Aufgabe anzeigen soll. Diese kann durch die Eingabe in den EditText am unteren Bildschirmrand und das Drücken auf den Button geändert werden.
+### 3.1
+Beantworte die folgenden Fragen:
+
+- Wie viele Fragements werden in diesem Projekt genutzt? Benenne diese. 
+- Wie viele Viewmodels werden in diesem Projekt genutzt?
+- Welche Daten enthält das Entity von Task? 
 </br></br>
 
-### 2.1
-Das TaskFragment ist momentan mit findViewById() implementiert. Ändere die Implementation so um, dass nun View Binding genutzt wird. View Binding ist bereits in der build.gradle aktiviert. 
+### 3.2 
+Starte die App im Emulator und erstelle einen beliebigen neuen Task.
+Führe folgende Sachen aus:
+
+- Minimiere die App und öffne sie anschließend wieder.
+- Beende die App komplett und starte die App anschließend neu.
+
+Was fällt dir in Bezug auf den Lebenszyklus auf?
 </br></br>
 
-### 2.2
-Die Variable currentTask in der Klasse TaskViewModel soll nun ein LiveData-Objekt sein. Ändere die Implementierung in den Klassen TaskViewModel und TaskFragment dementsprechend. </br>
-**Hinweis:** In dem TaskFragment muss ein Observer registriert werden.
+### 3.3
+Zuerst erstelle erneut einen beliebigen neuen Task. 
+
+Wir haben einen Fehler in der App entdeckt. Wenn wir uns in den Task Details befinden und den Task entfernen möchten, dann gelangen wir wieder zurück in die Übersicht, aber der Task wurde nicht gelöscht.
+
+Finde den Fehler und korrigiere ihn. 
