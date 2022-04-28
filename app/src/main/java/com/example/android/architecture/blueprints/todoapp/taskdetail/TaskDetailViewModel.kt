@@ -73,6 +73,9 @@ class TaskDetailViewModel(
 
             */
 
+            /* Lösung */
+            tasksRepository.deleteTask(it)
+
             _deleteTaskEvent.value = Event(Unit)
         }
     }
