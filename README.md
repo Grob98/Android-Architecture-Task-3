@@ -6,19 +6,25 @@ Beantworte die folgenden Fragen:
 - Wie viele Fragements werden in diesem Projekt genutzt? Benenne diese.
 
     1.AddEditTaskFragment
+
     2.StatisticsFragment
+
     3.TaskDetailFragment
+
     4.TasksFragment
 
 - Wie viele Viewmodels werden in diesem Projekt genutzt?
 
-    Es wird für jedes Viewmodel ein Fragment genutzt - 4.
+    Es wird für jedes Viewmodel ein Fragment genutzt - 4
 
 - Welche Daten enthält das Entity von Task?
 
      String - "title"
+
      String - "description"
+
      Boolean - "completed"
+
      String - "entryid"
 
 </br></br>
@@ -32,7 +38,7 @@ Führe folgende Sachen aus:
 
 Was fällt dir in Bezug auf den Lebenszyklus auf?
 
-    Bei Minimieren und wieder Öffnen werden die Tasks durch das Viewmodel beibehalten, aber beim Beenden der App verlieren wir alle Tasks.
+    Beim Minimieren und wieder Öffnen werden die Tasks durch das Viewmodel beibehalten, aber beim Beenden der App verlieren wir alle Tasks.
 
     Um dieses Problem zu beheben, müssten wir die Datenbank anpassen, damit die Daten beim Neustart wieder eingelesen werden können.
 
@@ -47,4 +53,4 @@ Wir haben einen Fehler in der App entdeckt. Wenn wir uns in den Task Details bef
 Finde den Fehler und korrigiere ihn. 
 
 
-Der Fehler ist in der Zeile 68 im TaskDetailViewModel zu finde. Durch das einfügen der Zeile "tasksRepository.deleteTask(it)" können wir das Problem beheben.
+    Der Fehler ist in der Zeile 68 im TaskDetailViewModel zu finden. Durch das Einfügen der Zeile "tasksRepository.deleteTask(it)" können wir dieses Problem beheben.
